@@ -10,3 +10,5 @@ The sub directories contain have to contain of the following files. Here are “xx
   - “X_xxxx.txt”, the measurements
   - “y_xxxx.txt” the assignment of activities to the measurements
 as default the actual working directory is taken. The result of the calculation is stored within the directory under the name “averageSubjcetActivity.txt” .
+
+For details about verageSubjcetActivity.txt see CodeBook.md.
