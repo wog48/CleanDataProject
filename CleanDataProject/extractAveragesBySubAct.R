@@ -35,7 +35,7 @@ analyseSmartphoneData  <- function(dir = getwd()){
 	colnames(reducedData)[2] <-"Acivity" 	
 	## new tidy data set
 	avrData            <- aggregate(reducedData[4:length(reducedData[1,])], by=reducedData[c("SubjectID","Acivity")], FUN=mean)
-	write.csv(avrData, "averageSubjcetActivity.csv")
+	write.table(avrData, "averageSubjcetActivity.txt", row.name =FALSE)
 }	
 
 
